@@ -183,7 +183,7 @@ const Home = () => {
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
             >
               <Image height={600} width={600} src="/avi.jpg" alt="Profile" className="w-full h-full" />
-              <Image height={600} width={600} src="/lexi.jpg" alt="asd" className="w-full h-full" />
+              
             
             </motion.div>
           </motion.div>
@@ -211,6 +211,7 @@ const Home = () => {
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
             >
+              <Image height={600} width={600} src="/lexi.jpg" alt="asd" className="w-full h-full" />
               About Me
             </motion.h2>
             <motion.div
