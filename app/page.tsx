@@ -162,6 +162,7 @@ const Home = () => {
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
                   View Projects
+                  <Image height={600} width={600} src="/lexi.jpg" alt="asd" className="w-full h-full object-cover" />
                 </Button>
               </motion.div>
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
@@ -182,7 +183,8 @@ const Home = () => {
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
             >
               <Image height={600} width={600} src="/avi.jpg" alt="Profile" className="w-full h-full object-cover" />
-              <Image height={600} width={600} src="/lexi.jpg" alt="Profile" className="w-full h-full object-cover" />
+              
+            
             </motion.div>
           </motion.div>
         </div>
