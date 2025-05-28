@@ -181,7 +181,7 @@ const Home = () => {
               whileHover={{ scale: 1.02, rotate: 1 }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
             >
-              <Image height={600} width={600} src="/Me.jpg" alt="Profile" className="w-full h-full object-cover" />
+              <Image height={600} width={600} src="/avi.jpg" alt="Profile" className="w-full h-full object-cover" />
             </motion.div>
           </motion.div>
         </div>
