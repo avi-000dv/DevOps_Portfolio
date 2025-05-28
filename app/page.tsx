@@ -187,6 +187,18 @@ const Home = () => {
             
             </motion.div>
           </motion.div>
+          <motion.div className="relative" variants={scaleUp} initial="hidden" animate="visible">
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-500/30 to-blue-500/30 rounded-2xl blur-3xl opacity-30"></div>
+            <motion.div
+              className="relative aspect-square rounded-2xl border border-gray-200 dark:border-white/10 bg-white/50 dark:bg-black/50 backdrop-blur-sm overflow-hidden"
+              whileHover={{ scale: 1.02, rotate: 1 }}
+              transition={{ type: "spring", stiffness: 300, damping: 20 }}
+            >
+              <Image height={600} width={600} src="/lexi.jpg" alt="Profile" className="w-full h-full" />
+              
+            
+            </motion.div>
+          </motion.div>
         </div>
       </section>
 
@@ -211,7 +223,7 @@ const Home = () => {
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
             >
-              <Image height={600} width={600} src="/lexi.jpg" alt="asd" className="w-full h-full" />
+              
               About Me
             </motion.h2>
             <motion.div
